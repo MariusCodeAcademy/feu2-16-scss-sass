@@ -1,4 +1,5 @@
 @use 'reset';
+@use 'common';
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -11,6 +12,13 @@ body {
   color: #fff;
   padding-top: 5%;
   padding-bottom: 5%;
+
+  .container>.btn {
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .news__title {
     text-align: center;
