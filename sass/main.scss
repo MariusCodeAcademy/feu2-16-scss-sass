@@ -50,7 +50,17 @@ body {
   height: 100px;
   background-color: tomato;
   border: 1px solid v.$primary-color;
+  transition: background-color 0.5s;
+
+  //  & === .box
+  &:hover {
+    background-color: lighten(tomato, 31%);
+  }
 }
+
+// .box:hover {
+//   background-color: darken(tomato, 20%);
+// }
 
 // prapleciam pris tai aprasyta stiliu
 .dezes {
@@ -59,4 +69,11 @@ body {
   border: 1px solid v.$secondary-color;
   border-color: #333;
   @include myFlex($direction: column, $gap: 25px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  gap: 20px;
+  transform: translate(50%);
 }
