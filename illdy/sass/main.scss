@@ -1,3 +1,24 @@
+@use 'reset';
+
 body {
-  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+// latest news
+
+.late-news {
+  background-color: #333;
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  .news__title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .news__subtitle {
+    font-weight: 300;
+    text-align: center;
+  }
 }
