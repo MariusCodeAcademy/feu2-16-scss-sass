@@ -8,4 +8,11 @@
   &:hover {
     background-color: lighten(coral, 15%)
   }
+
+  &.btn--arrow::before {
+    content: '\f138';
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+  }
+
 }

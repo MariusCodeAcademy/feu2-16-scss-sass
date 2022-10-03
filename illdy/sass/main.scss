@@ -1,6 +1,8 @@
 @use 'reset';
 @use 'common';
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -29,4 +31,26 @@ body {
     font-weight: 300;
     text-align: center;
   }
+
+  .single-post {
+    display: flex;
+    flex-direction: column;
+
+    &__description {
+      background-color: #fff;
+      color: #333;
+      padding: 1rem;
+    }
+
+    &__title {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    &__short {
+      margin-bottom: 2rem;
+    }
+  }
 }
+
+// latest news
