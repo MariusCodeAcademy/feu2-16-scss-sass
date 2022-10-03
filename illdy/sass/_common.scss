@@ -12,7 +12,7 @@
   color: white;
 
   &:hover {
-    background-color: darken(coral, 15%)
+    background-color: darken(coral, 15%);
   }
 
   &.btn--arrow::before {
@@ -20,5 +20,4 @@
     font-family: 'FontAwesome';
     padding-right: 10px;
   }
-
 }
