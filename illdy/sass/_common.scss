@@ -1,12 +1,18 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .btn {
   border: none;
-  background-color: coral;
+  background-color: var(--main-color);
   font-size: 1rem;
   padding: 0.5em 1em;
   color: white;
 
   &:hover {
-    background-color: lighten(coral, 15%)
+    background-color: darken(coral, 15%)
   }
 
   &.btn--arrow::before {
