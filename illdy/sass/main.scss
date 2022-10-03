@@ -32,6 +32,11 @@ body {
     text-align: center;
   }
 
+  .news-posts {
+    display: grid;
+    gap: 1rem;
+  }
+
   .single-post {
     display: flex;
     flex-direction: column;
@@ -52,5 +57,3 @@ body {
     }
   }
 }
-
-// latest news
